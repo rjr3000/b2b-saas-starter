@@ -9,7 +9,11 @@ const settings: DeploymentSettings = {
       PRIVACY_CONTROLLER_NAME: 'Martin Brandhaug',
       PRIVACY_CONTACT_EMAIL: 'martin@brandhaug.net'
     },
-    secrets: []
+    secrets: [],
+    domains: {
+      web: { name: 'b2b.rg1.in', zoneId: '60e359054276fdbe2005f1f3086eddfe' },
+      api: { name: 'api.b2b.rg1.in', zoneId: '60e359054276fdbe2005f1f3086eddfe' }
+    }
   }
 }
 
